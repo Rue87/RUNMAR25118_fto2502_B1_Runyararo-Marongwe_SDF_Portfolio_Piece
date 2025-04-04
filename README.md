@@ -1,4 +1,4 @@
-Hi everyone, welcome to my portfolio Repository. Everything you need to know abouth this repo is in this README file. You can also watch an expanation video by clicking on the following link https://www.veed.io/view/5b5a3063-8255-4473-b32b-d0683fd894c9?panel=share
+Hi everyone, welcome to my portfolio Repository. Everything you need to know abouth this repo is in this README file. You can also watch an expanation video by clicking on the following link https://www.veed.io/edit/67b0f669-9a40-4f4a-81a9-6f3b44ff94dd
 
 # Figma Design Resume Project
 
