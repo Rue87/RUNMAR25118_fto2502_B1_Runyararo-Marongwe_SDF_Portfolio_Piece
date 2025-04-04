@@ -1,0 +1,436 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: darkgray;
+}
+
+.container {
+  width: 90%;
+  /* max-width: 1200px; */
+
+  background-color: dark gray;
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-left: 38px;
+  margin-right: 48px;
+  width: 100%;
+}
+
+header {
+  width: 1300px;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  column-gap: 48px;
+}
+header img {
+  width: 300px;
+  height: 210px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+.Abt {
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 40px 20px;
+  border-radius: 12px;
+  /* max-width: 1000px; */
+  margin: 50px auto;
+  flex-wrap: wrap;
+  margin-right: 0px;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+header p {
+  color: #555;
+}
+
+.prof-skills-container {
+  display: flex;
+  justify-content: space-between; /* Adds space between the two sections */
+  flex-direction: row;
+  column-gap: 40px;
+  margin: 10px 0; /* Adds margin at the top and bottom */
+}
+
+.proficiency {
+  width: 563px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 51px 27px 28px 28px;
+  margin-left: 38px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+.bar {
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress.html {
+  width: 80%; /* Adjust percentage as needed */
+  background-color: #108f41; /* HTML color */
+}
+
+.progress.css {
+  width: 70%; /* Adjust percentage as needed */
+  background-color: #108f41; /* CSS color */
+}
+
+.skills {
+  width: 700px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 51px 27px 28px 28px;
+  margin-right: 12px;
+  margin-right: 50px;
+}
+.skill-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.projects-header {
+  justify-items: center;
+  position: absolute;
+  align-items: center;
+  padding-left: 45%;
+}
+.projects {
+  background-color: white;
+  margin-left: 38px;
+  margin-right: 49px;
+  border-radius: 20px;
+}
+.projects-header {
+  margin-bottom: 50px;
+}
+
+/*   my Educa section  */
+/* Container for Education & Sidebar */
+.educa {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 1100px;
+  background-color: #ffffff; /* White background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 38px;
+  margin-right: 10px;
+}
+.eduTools {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.educa h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.education-card-1 {
+  background-color: #4a8b70;
+  color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 0px;
+  padding-left: 20px;
+}
+.education-card-2 {
+  background-color: #d1eee2;
+  color: #000;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.education-card-3 {
+  color: #000;
+  background-color: #d1eee2;
+  border-radius: 10px;
+  padding-left: -10px;
+  margin-top: 48px;
+}
+.education-card .date {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.education-card ul {
+  padding-left: 20px;
+}
+.sidebar {
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 48px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.experi {
+  background-color: white;
+  margin-top: 48px;
+  margin: 38px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.exp-item1 {
+  background-color: #4a8b70;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+}
+.exp-item2 {
+  background-color: #d1eee2;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 38px;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+}
+
+/* Sidebar Headings */
+.sidebar h2 {
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+}
+
+/* Sidebar Category */
+.category {
+  margin-top: 20px;
+}
+
+.category h3 {
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #4a8b70;
+  padding-bottom: 5px;
+}
+
+.category ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category ul li {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.category ul li img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.FCS {
+  color: #000;
+}
+.exp-item {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+.exp-item h3 {
+  margin-bottom: 5px;
+}
+.company {
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin: 38px;
+  background-color: #d34f0de7;
+  color: #fff;
+  padding: 20px;
+  margin: 38px;
+  border-radius: 10px;
+}
+.footer-text {
+  color: #ffff;
+}
+.contact-info {
+  margin-top: 10px;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.separator {
+  color: #fff;
+}
+
+/* .container {
+  display: flex;
+  gap: 20px;
+  margin-left:38px;
+  margin-right:0px;
+  width:100%;
+  
+} */
+
+.eduTools {
+  flex: 15; /* Takes more space */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: max-content;
+}
+
+.sidebar {
+  flex: 2; /* Takes less space */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-right: -10px;
+}
+
+.card_Format {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.card_Format3 {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-right: 0px;
+}
+
+.btn {
+  background-color: #d34f0de7;
+  border-radius: 10px;
+  border-color: #d34f0de7;
+  margin-top: 10px;
+  color: white;
+  margin-left: 40px;
+}
+btn_Container {
+  margin-left: 10px;
+}
+
+.leftwing {
+  flex: 5;
+  margin-left: 20px;
+}
+.rightWing {
+  flex: 5px;
+}
+.languages {
+  background-color: #d1eee2;
+  padding: 20px;
+  border-radius: 10px;
+}
+.lang-format {
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  row-gap: 5px;
+}
+.tailwind {
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+}
+.Projects {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 38px;
+  margin-right: 42px;
+}
+
+/* media Query */
+/* Default: 4 cards per row */
+.project-card-green {
+  margin-top: 50px;
+  background-color: #108f41;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 20px;
+}
+.card1 {
+  background-color: #d1eee2;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.projects-card-l1 {
+  background-color: #d1eee2;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+.project-cards {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr); /* 3 cards per row by default */
+  gap: 20px; /* Space between cards */
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/* Tablets & small screens: 2 cards per row */
+@media screen and (max-width: 768px) {
+  .project-cards {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+
+  .container {
+    width: 90%;
+    background-color: dark gray;
+
+    margin: 20px auto;
+    display: block;
+    justify-content: baseline;
+  }
+  .eduTools {
+    width: 90%;
+    margin-right: 20px;
+  }
+}
+
+/* Mobile devices: 1 card per row */
+@media screen and (max-width: 480px) {
+  .project-cards {
+    grid-template-columns: 1fr; /* 1 card per row */
+    width: 100%; /* Make cards occupy the whole screen */
+    margin: 10px; /* Remove any margin */
+  }
+}
