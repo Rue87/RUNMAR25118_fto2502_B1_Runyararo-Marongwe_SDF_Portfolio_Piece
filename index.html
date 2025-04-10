@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Resume</title>
     <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <div class="container"> 
-        <header>
-            <img src="IMG-20250328-WA0021.jpg" alt="Profile Picture">
-            <div class="Abt container">
-            <h1>Runyararo Marongwe</h1>
-            <p>I am a passionate web developer, diligently expanding my skillset while building upon a solid foundation in HTML and CSS. Passionate about learning and building clean, user-friendly websites.</p>
-        </div>
-    </header>
-    </div>
+    <div class="resume-container">
+        <header class="profile-section">
+                <img src="IMG-20250328-WA0021.jpg" alt="Profile-Picture" class="profile-picture">
+                <div class="profile-info">
+                <h1>Runyararo Marongwe</h1>
+                <p>
+                    l am a passionate web developer, diligently expanding my skillset while
+                     building upon a solid foundation in HTML and CSS. Passionate about learning
+                      and building clean, user-friendly websites. I am particularly interested in staying 
+                      current with the evolving web landscape, eager to master new frameworks and libraries,
+                       and adapt to emerging best practices. I thrive on challenges and am committed to continuous improvement.</p>
+            </div>
+        </header>
+   
     <div class="prof-skills-container">
         <section class="proficiency">
         <h2>Proficiency</h2>
@@ -34,15 +43,19 @@
             <div class="bar"><div class="progress css"></div></div>
         </div>
          </section>
-         <section class="skills card">
+
+    <section class="skills">
+        <div class="skills-card">
         <h2>Skills</h2>
-        <div class="skills-list">
-            <button class="skill-button">UI Design</button>
-            <button class="skill-button">Problem Solving</button>
-            <button class="skill-button">Git And Version Control</button>
-            <button class="skill-button">Web Development</button>
+        <ul class="skillslist">
+            <li>UI Design</li>
+            <li>Problem Solving</li>
+            <li>Git And Version Control</li>
+            <li>Web Development</li>
+            <li>Attention to detail</li>
+         </ul>
         </div>
-        </section>
+    </section>
     </div>
     
     <section class="projects">
@@ -80,24 +93,13 @@
             </div>
         </div>
     </section>
-    
- 
 
-
-
-<!-- Projects ending -->
-
-
-
-
-
-        <div class="container">
-            <section class="eduTools">            
-                    <div class="educa-cards">
-                        <h1><strong>Education</strong></h1>
-                    </div>
+      <div class="edu-tools-container">
+            <div class="eduTools">            
+                    <section class="educa-cards">
+                        <h2><strong>Education</strong></h2>
                     <div class="education-card-1">
-                        <div class="card_Format">
+                        <div class="card_Format_sd">
                             <div class="leftwing">
                                 <p class="date">Feb. 2025 - Mar. 2025</p>
                                 <h3>Codespace Academy</h3>
@@ -112,122 +114,137 @@
                                 <input type="submit" class="btn" value="Most Recent"/>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="education-card-2" style="margin-top:20px;">
-                        <div class="card_Format">
+                <div class="education-card-2" style="margin-top:20px;">
+                        <div class="card_Format_fcs">
                             <div class="leftwing">
                                 <p class="date fcs">Sept.2007 - Mar.2012</p>
                                 <h3 class="fcs">Solusi University</h3>
                                 <p>FCS</p>
                             </div>
-                            <div class="rightwing">
+                            <div class="rightwing_fcs">
                                 <ul class="fcs">
                                     <li>Gained a strong foundation in research, data analysis, and critical thinking which are essential skills for problem-solving in web development, debugging code, and understanding user requirements.</li>
                                 </ul>
                             </div>
                         </div>
-                        
-                        
                     </div>
-                    
-                    <div class="education-card-3" style="margin-top:20px;">
+                <div class="education-card-3" style="margin-top:20px;">
                         <div class="card_Format3">
-                            <div class="leftwing">
+                            <div class="leftwing-RGM">
                                 <p class="date">Jan. 2001 - Dec. 2006</p>
                                 <h3>Regina Mundi High</h3>
                                 <p>Ordinary and Advanced Level</p>
-                            
-                            </div>
-                            <div class="rightwing">
+                             </div>
+                            <div class="rightwing-RGM">
                                 <ul>
                                     <li>Built core academic skills and developed an early passion for problem-solving.</li>
                                     <li>Participated in class projects that sharpened creative and analytical thinking.</li>
                                 </ul>
                             </div>
-                            
+                        </section>
                         </div>
-                    </div>
-                
-            </section>
+                        
+                         
             <section class="sidebar" style="margin-right: 72px;">
                 <h2>Tools</h2>
-                <div class="category lang">
+                <div class="categorylang">
 
-                    <div class="languages">
-                        <h3>Languages</h3>
+                    <fieldset class="languages">
+                        <legend class="languagetxt">languages</legend>
+                       
                         <div class="lang-format">
-                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"> HTML </div>
-                            &emsp;
-                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"> CSS</div>
+                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="htmllogo"> HTML </div>
+                           
+                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="csslogo"> CSS</div>
                         </div>
-                         <div  ><img src="images/tailwind-css.svg" alt="Tailwind" class="tailwind"> <br> Tailwind</div>
-                    </div>
+                        <div><img src="images/tailwind-css.svg" alt="Tailwind" class="tailwind"> <br> Tailwind</div>
+                    </fildset>
                 </div>
-        
-                <div class="category des">
-                    <h3>Design</h3>
-                    <ul>
-                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"> Figma</li>
-                        <li><img src="https://img.icons8.com/color/48/google-logo.png" alt="Google"> Google</li>
-                    </ul>
+
+               <div class="categorylang">
+
+                    <fieldset class="languages">
+                        <legend class="languagetxt">design</legend>
+                       
+                        <div class="lang-format">
+                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" class="figmalogo"> Figma </div>
+                           
+                            <div><img src="https://img.icons8.com/color/48/google-logo.png" alt="Google"> Google</div>
+                        </div>
+                    </fildset>
                 </div>
-        
-                <div class="category tools">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"> GitHub</li>
-                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"> Git</li>
-                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"> VS Code</li>
-                    </ul>
+                <div class="categorylang">
+
+                    <fieldset class="languagestools">
+                        <legend class="languagetxt">tools</legend>
+                       
+                        <div class="lang-format">
+                            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="github"> GitHub</div>
+                           
+                            <div><img src="images/git.png" alt="Git" class="git"> Git</div>
+                        </div>
+                        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Tailwind" class="tailwind"> <br> VS code</div>
+                    </fildset>
                 </div>
-            </section>
+           </section>
         </div>
-        
     </div>
+    
 
             <section class="experi">
                 <h2>Experience</h2>
               
                 <div class="exp-item1">
+                    <div class="exp-card-format">
+                        <div class="exp-leftwing">
                     <h3>Manager</h3>
                     <p >Jan 2017 - July 2019</p>
                     <p >Villa-Anne Hotel | Full-time</p>
-                    <p class="description">
+                    </div>
+                    <div class="descriptionrw">
                         <ul>
                             <li>I would oversee the operation of the hotel,ensuring impeccable service and maintaining the highest standard of presentation.</li>
                             <li>Maintaining accurate records of guest information, financial transactions, and other relevant data.</li>
                             <li>Ensuring exceptional guest service and resolving any guest complaints promptly and professionally.</ul>
                         
                         </ul>
-                    </p>
+                    </div>
+                </div>
                 </div>
               
                 <div class="exp-item2">
+                    <div class="exp-card-formatngo">
+                    <div class="exp-leftwing-ngo">
                   <h3>Nutrition Consultant</h3>
                   <p class="date">Jan 2015 - Dec 2024</p>
                   <p class="company">A.S.A.P|(NGO)| Contract</p>
-                  <p class="description">
+                 </div>
+                  <div class="descriptionrw-ngo">
                     <ul>
                         <li>Providing technical expertise ,training staff and facilitating programs,and ensuring the quality of nutrition interventions.</li>
                         <li>Analyzing clients' current nutritional intake and identifying areas for improvement.</li>
                         <li>Evaluating the effectiveness of dietary interventions.</li>
-                    </li>
                    </ul>
-                     </p>
+                </div>
+                </div>
                 </div>
               
                 <div class="exp-item2">
+                    <div class="exp-card-formatbps">
+                    <div class="exp-leftwing-bps">
                   <h3>Teacher</h3>
                   <p class="date">Sept 2013 - Dec 2013</p>
                   <p class="company">Bhamhara Primary Sch | Temporary</p>
-                  <p class="description">
+                    </div>
+                  <div class="descriptionrw-bps">
                     <ul>
                     <li>Developing and implementing engaging lesson plans that align with the curriculum for subjects like reading, writing, math, science, and social studies.</li>
                     <li>Establishing and maintaining a positive and safe learning environment.</li>
                     <li>Administering tests, quizzes, and other assessments to monitor student progress.</li>
                     </ul>
-                  </p>
+                </div>
+                </div>
                 </div>
             </section> 
                 <div class="footer">
