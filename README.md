@@ -26,11 +26,10 @@ This project showcases a digital resume designed in Figma and implemented using 
 ## Challengies Encountered
 
 * **Container Alignment and Sizing:**
-  -Difficulty achieving precise alignment of container elements across different screen sizes.
+  -Difficulty achieving precise alignment of container elements across different screen sizes, but finally managed to do it.
   -Struggled with responsive adjustments of container dimensions to maintain consistent layout.
 * **Text Alignment:**
   -Inconsistencies in text alignment within various elements, requiring specific CSS rules to enforce desired presentation.
-  -Challenges in aligning text vertically within containers.
 * **HTML Class Naming:**
   -Initial difficulties in establishing a clear and consistent naming convention for CSS classes.
   -Encountered issues with class names that were not descriptive enough, leading to confusion during development.
